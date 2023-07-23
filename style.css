@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+  
+body{
+    background-color: none;
+    
+}
+   /* header1 */
+
+.header1{
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+.contact a {
+ font-size: 12px;
+ color: white;
+ text-decoration: none;
+ margin: 10px 10px 10px 10px;
+}
+
+.contact a:hover{
+    color:black;
+}
+.icon a {
+ font-size: 12px;
+ color: white;
+ text-decoration: none;
+ margin: 10px 10px 10px 10px;
+}
+
+.icon a:hover{
+  color:black ;
+}
+
+@media (max-width: 600px) {
+    .header1 {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .contact{
+      margin-bottom: 20px;
+    } 
+    .icon{
+      display: flex;
+      align-items: center; 
+      justify-content: center;
+    }
+  
+  }
+  @media (max-width: 500px) {
+    .header1{
+      display: none;
+    }
+}
+
+/* header 2 */
+
+/* .navbar{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 150px;
+}
+
+.nav-item a:hover{
+    color: black;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    outline: none;
+    border-radius: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: aqua;
+}
+
+.nav-item
+{  
+    
+}
+
+button{
+    height: 100%;
+    width: 200px;
+    border-radius: 50px;
+    background-color: aqua;
+    margin-left: 20px; 
+}
+
+.app{
+    margin-left: 250px;
+}
+
+button a{
+    text-align: center;
+    text-decoration: none;   
+} */
+
+.btn{
+    background-color: aqua;
+}
+
+.hicon a {
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    margin: 10px 10px 10px 10px;
+   }
+   
+   .hicon a:hover{
+     color:rgb(228, 35, 35) ;
+   }
+
+
+   .banner {
+    position: relative;
+    text-align: center;
+     color: rgb(3, 3, 3);
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+    .banner img{
+      opacity: .5;
+    }
+
+   .hrrr{
+      height: 10px;
+      width: 150px;
+      margin: 30px auto;
+      position: relative;
+      opacity: 1;
+      color: black;
+      border: 5px solid black; 
+   }
+
+    
